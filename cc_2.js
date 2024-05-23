@@ -14,3 +14,11 @@ console.log(`The bill was $${billAmount}, the tip was $${tipAmount.toFixed(2)}, 
 function calcTip(bill) {
     return bill > 300 ? bill * .20 : bill * .15;
 }
+
+const bills = (125, 555, 44);
+const tips = bill.map(bill > calcTip(bill));
+const totals = bill.map((bill, index) > bill + tip(index));
+
+console.log(bills);
+console.log(tips);
+console.log(totals);
